@@ -12,150 +12,93 @@
   <meta name="theme-color" content="#0f172a">
   <link rel="icon" href="assets/favicon.svg">
   <link rel="stylesheet" href="styles.css">
+
+  <!-- Structured data for better SEO -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Person",
+    "name":"Himanshu Joshi",
+    "jobTitle":"Senior Network Analyst (PMO)",
+    "description":"PMP-certified PMO professional in telecom & IT. Project leadership, AI dashboards, and process automation.",
+    "url":"https://your-domain.example/",
+    "image":"assets/preview.png",
+    "address":{"@type":"PostalAddress","addressLocality":"Nainital","addressCountry":"IN"},
+    "alumniOf":{"@type":"CollegeOrUniversity","name":"Graphic Era University","sameAs":"https://geu.ac.in"},
+    "sameAs":[
+      "https://www.linkedin.com/in/himanshu-joshi-pmp/"
+    ]
+  }
+  </script>
 </head>
 <body>
-  <header class="nav">
-    <a class="brand" href="#top">HJ</a>
+  <header class="nav" id="top">
+    <a class="brand" href="#top" aria-label="Go to top">HJ</a>
     <nav>
       <a href="#about">About</a>
       <a href="#experience">Experience</a>
       <a href="#projects">Projects</a>
       <a href="#skills">Skills</a>
+      <a href="#awards">Awards</a>
       <a href="#certifications">Certifications</a>
+      <a href="#education">Education</a>
       <a href="#contact">Contact</a>
     </nav>
-    <a class="btn" href="https://www.linkedin.com/in/himanshu-joshi-pmp/" target="_blank" rel="noopener">View LinkedIn</a>
+    <div class="actions">
+      <a class="btn" href="assets/Himanshu_Joshi_Resume.pdf" target="_blank" rel="noopener">Download Resume</a>
+      <a class="btn" href="https://www.linkedin.com/in/himanshu-joshi-pmp/" target="_blank" rel="noopener">View LinkedIn</a>
+    </div>
   </header>
 
-  <main id="top">
+  <main>
     <section class="hero">
       <div class="hero-inner">
         <h1>Hi, I'm <span class="accent">Himanshu Joshi</span>.<br>PMP® • PMO • AI Dashboards</h1>
-        <p class="lead">I deliver high-impact telecom and IT projects, streamline PMO processes, and build AI-powered dashboards for smarter decision-making.</p>
+        <p class="lead">I deliver high-impact telecom & IT programs, streamline PMO governance, and build AI-powered reporting to speed up decisions.</p>
         <div class="cta">
           <a class="btn primary" href="https://www.linkedin.com/in/himanshu-joshi-pmp/" target="_blank" rel="noopener">Connect on LinkedIn</a>
           <a class="btn ghost" href="#projects">See Projects</a>
         </div>
         <ul class="hero-bullets">
-          <li>PMP® certified • Agile / Waterfall / Hybrid</li>
-          <li>Project Leadership • Process Automation</li>
-          <li>AI Dashboards • Vendor & Stakeholder Mgmt</li>
+          <li>PMP® • Agile / Waterfall / Hybrid</li>
+          <li>PMO Governance • Vendor & Stakeholder Management</li>
+          <li>Apps Script Automations • AI/ML-assisted Dashboards</li>
         </ul>
       </div>
       <div class="hero-card">
         <div class="card">
           <h3>Currently</h3>
-          <p><strong>Sr. Network Analyst (PMO)</strong> — leading highly monitored, multi-process projects.</p>
+          <p><strong>Sr. Network Analyst (PMO)</strong> — leading highly monitored, multi-process initiatives across telecom & IT.</p>
           <p class="muted">Updated: 2025</p>
         </div>
         <div class="card">
           <h3>Focus</h3>
-          <p>Project leadership, PMO governance, and AI copilots for reporting.</p>
+          <p>Portfolio governance, executive reporting, and AI copilots that cut manual reporting time.</p>
         </div>
       </div>
     </section>
 
     <section id="about" class="section">
       <h2>About</h2>
-      <p>I'm a PMP-certified project management professional with experience in telecom & IT. I specialize in PMO governance, process automation, and executive reporting through AI-powered dashboards.</p>
+      <p>I'm a PMP-certified PMO professional with deep experience across telecom & IT delivery. I specialize in establishing governance, optimizing vendor & stakeholder management, and automating reporting with Google Apps Script and AI. I enjoy turning complex, multi-process operations into clear, executive-ready insights.</p>
     </section>
 
     <section id="experience" class="section">
       <h2>Experience</h2>
       <ul class="timeline">
         <li>
-          <div class="time">2022 — Present</div>
+          <div class="time">Nov 2022 — Present</div>
           <div class="content">
-            <h3>Senior Network Analyst (PMO)</h3>
-            <p>Managing a portfolio of telecom & IT projects; implementing process governance and building Apps Script automation for executive dashboards.</p>
+            <h3>Senior Network Analyst (PMO) — TELUS International / TELUS Digital</h3>
+            <ul class="points">
+              <li>Manage a portfolio of telecom & IT initiatives with VP-level visibility; drive governance, risk, and dependency management.</li>
+              <li>Built Apps Script automations for <em>ArcGIS / RDMV / Allegro</em> dashboards, reducing manual reporting cycles and errors.</li>
+              <li>Rolled out AI-assisted status updates, risk logs, and exec brief templates; improved on-time reporting and stakeholder clarity.</li>
+              <li>Partner with cross-functional teams (design, civil, QC) to keep FTTx processes aligned with schedule, cost, and quality goals.</li>
+            </ul>
           </div>
         </li>
         <li>
-          <div class="time">2016 — 2022</div>
+          <div class="time">Dec 2016 — Nov 2022</div>
           <div class="content">
-            <h3>Senior Engineer (PMO), Reliance Jio</h3>
-            <p>Led telecom rollout projects across clusters; managed vendor performance, budgets, and delivery governance.</p>
-          </div>
-        </li>
-        <li>
-          <div class="time">2015 — 2016</div>
-          <div class="content">
-            <h3>Assistant Engineer, OSE</h3>
-            <p>Handled telecom/civil execution and quality control for infrastructure projects.</p>
-          </div>
-        </li>
-      </ul>
-    </section>
-
-    <section id="projects" class="section">
-      <h2>Highlighted Projects</h2>
-      <div class="grid">
-        <article class="project">
-          <h3>AI Copilot for PMO</h3>
-          <p>Developed AI-driven templates for executive updates, risk logs, and stakeholder communications.</p>
-        </article>
-        <article class="project">
-          <h3>PMO Dashboards</h3>
-          <p>Automated reporting workflows with Apps Script and dashboards for leadership reviews.</p>
-        </article>
-        <article class="project">
-          <h3>Telecom Project Governance</h3>
-          <p>Implemented PMO frameworks and governance models for multi-process telecom projects.</p>
-        </article>
-      </div>
-    </section>
-
-    <section id="skills" class="section">
-      <h2>Skills</h2>
-      <div class="tags">
-        <span>PMO</span><span>PMP®</span><span>Agile</span><span>Hybrid Delivery</span>
-        <span>Process Automation</span><span>AI Dashboards</span>
-        <span>Stakeholder Mgmt</span><span>Risk Management</span>
-      </div>
-    </section>
-
-    <section id="certifications" class="section">
-      <h2>Certifications</h2>
-      <ul class="cards">
-        <li class="card small">
-          <h3>PMP®</h3>
-          <p>Project Management Professional</p>
-        </li>
-        <li class="card small">
-          <h3>Generative AI Overview for PMs</h3>
-          <p>Applying AI to planning, reporting, and risk.</p>
-        </li>
-      </ul>
-    </section>
-
-    <section id="contact" class="section">
-      <h2>Contact</h2>
-      <p>Best place to reach me is LinkedIn. You can also use the quick contact form below.</p>
-      <form id="contact-form">
-        <div class="row">
-          <label>
-            <span>Name</span>
-            <input type="text" name="name" required>
-          </label>
-          <label>
-            <span>Email</span>
-            <input type="email" name="email" required>
-          </label>
-        </div>
-        <label>
-          <span>Message</span>
-          <textarea name="message" rows="5" required></textarea>
-        </label>
-        <button class="btn primary" type="submit">Send</button>
-        <p class="muted" id="form-status" aria-live="polite"></p>
-      </form>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <p>© 2025 Himanshu Joshi • Built with HTML/CSS/JS • <a href="https://www.linkedin.com/in/himanshu-joshi-pmp/" target="_blank" rel="noopener">LinkedIn</a></p>
-  </footer>
-
-  <script src="script.js" defer></script>
-</body>
-</html>
+            <h3>Senior Engineer (PMO) — Relianc
